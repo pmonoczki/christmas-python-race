@@ -5,8 +5,8 @@ class InputGenerator :
     def generateInput():
         input_list = []
         cc = 0
-        while cc < 20000:
-            x = random.randrange(1,250000)
+        while cc < 200000:
+            x = random.randrange(1,2500000)
             if not str(x) in input_list :
                 input_list.append(str(x)+'\n')
                 cc += 1
